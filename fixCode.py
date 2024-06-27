@@ -16,7 +16,7 @@ openai.api_key = api_key
 # Funzione per ottenere una risposta dall'API di OpenAI
 def get_response(messages):
     response = openai.ChatCompletion.create(
-        model="gpt-4o",
+        model="gpt-4o-2024-05-13",
         temperature=1.0,
         messages=messages
     )
